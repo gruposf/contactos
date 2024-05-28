@@ -1,0 +1,442 @@
+/************************************
+********* tipography  ***************
+************************************/
+.dspno{display:none;}
+.align_center{text-align:center !important;}
+.mgntop0{margin-top:0px;}
+.mgntop5{margin-top:5px;}
+.mgntop15{margin-top:15px;}
+.mgntop20{margin-top:20px;}
+.mgntop30{margin-top:30px;}
+.mgntop40{margin-top:40px;}
+.ftsize12{font-size: 12px !important;}
+.ftsize14{font-size: 14px !important;}
+/***********************************************
+********* Responsive                  **********
+***********************************************/
+footer .footer-partner{
+    margin-top:80px;
+	color:#fff;
+	width:560px;
+}
+
+.footer-litige{
+	display:block;
+	margin:25px 0px 0px 0px;
+	font-size:11px;
+}
+.footer-litige a{
+	color:orange;
+	text-decoration:underline;
+}
+
+footer .footer-partner ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+    list-style-type: none;
+}
+
+footer .footer-partner ul li{
+	float:left;
+	margin-right:10px;
+}
+/*-- Services --*/
+.service-item .downOn {
+    background-color: #fff;
+	text-align: center;
+    border: 1px solid #e8e9eb;
+    box-shadow: 0 0 55px rgb(0 0 0 / 3%);	
+	color: #7f7f7f;
+    line-height: 1.8;
+    /*font-size: 15px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-bottom: 48px;
+}
+
+.service-item .downOn span {
+    font-size: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+	text-align: center;
+    color: #ff5e13;
+}
+
+.service-item .pricing-terms {
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0 5px;
+}
+
+.service-item .pricing-terms h6 {
+    margin-top: 10px;
+    color: #0489B1;
+    font-size: 22px;
+}
+
+.pricing-container {
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pricing-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-container ul li {
+    border-bottom: 1px solid #F5F5F5;
+    list-style: none;
+    padding: 15px 0 15px 0;
+    margin: 0 0 0 0;
+    color: #222;
+}
+
+.pricing-action {
+    margin: 0;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+/*----------------------------------------
+- Project Carrousel                    -
+-----------------------------------------*/
+.project-carousel {
+    position: relative;
+    background: #02245b;
+}
+
+/*.img-fluid {
+    max-width: 100%;
+    height: auto;
+}*/
+
+.project-item {
+    position: relative;
+    display: block;
+}
+
+.project-item img {
+    transition: .5s;
+	display: block;
+    width: 100%;
+}
+
+.project-item:hover img,
+.project-carousel .owl-item.center img {
+    margin-top: -60px;
+}
+
+.project-item .project-title {
+    position: absolute;
+    padding: 0 15px;
+    width: 100%;
+    height: 80px;
+    bottom: -110px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #02245b;
+    transition: .5s;
+}
+
+.project-item:hover .project-title,
+.project-carousel .owl-item.center .project-title  {
+    bottom: -60px;
+}
+
+.ftl-large{
+    font-size: large;	
+}
+
+.project-item .project-title::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 30px;
+    top: -15px;
+    left: 0;
+    transform: skewY(-5deg);
+    background: var(--dark);
+    transition: .5s;
+}
+
+.project-carousel .owl-nav {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.project-carousel:hover .owl-nav {
+    opacity: 1;
+}
+
+.project-carousel .owl-nav .owl-prev,
+.project-carousel .owl-nav .owl-next {
+    margin: 0 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #FF5E14;
+    border-radius: 45px;
+    font-size: 22px;
+    transition: .5s;
+}
+
+/*----------------------------------------
+- Artigos page                    -
+-----------------------------------------*/
+#wrapper{
+	margin: 50px 0px -60px 0px;
+}
+
+#content .fils{
+	position:relative;
+	margin:0 0 0 0;
+	padding:10px 35px 30px 35px; /*35*/
+    text-align:left;	
+}
+
+#content .fils a{
+	padding:10px;
+	text-align:left;
+	width:25%;
+	color:green;
+	font-size:14px;
+	text-decoration:none;
+	outline:none;
+	font-weight:500;
+	margin-right:10px;
+	background-color:#fefefe;
+	border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(70, 70, 70, 0.21);
+    -moz-box-shadow:    0px 1px 4px 0px rgba(70, 70, 70, 0.21);
+    box-shadow:         0px 1px 4px 0px rgba(70, 70, 70, 0.21);	
+}
+
+#content .fils a:hover{
+	border: 1px solid #c5c5c5;
+	font-weight:500;
+}
+
+#content .fils a:focus{
+	border: 1px solid green;
+	font-weight:500;
+}
+
+#content .fils a.active{
+	border: 1px solid green;
+	color:#888;
+	font-weight:500;
+}
+/* Product container
+==================================== */
+.product-container{
+	position:relative;
+	background: #fff;
+	margin:0;
+	margin-top:-35px;
+	padding:5px 35px 0px 35px;
+	text-align:center;
+	font-size:14px;
+}
+
+.product-container ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.product-container ul li{
+    list-style: none;
+    padding: 15px 0 15px 0;
+    margin: 0 0 0 0;
+    color: #222;
+}
+
+.product-container ul li .item-product{
+	border: 1px solid #fcfcfc;
+	padding:8px;
+	height:;
+	margin:0;
+	border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+    box-shadow:         0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+}
+
+.product-container ul li .item-product:hover{
+	border: 1px solid #c5c5c5;
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(70, 70, 70, 0.21);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+    box-shadow:         0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+}
+
+.product-container ul li .item-product ul{
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	margin:0;
+}
+
+.product-container ul li .item-product ul li{
+	width:100%;
+	float:left;
+	overflow:hidden;
+    list-style: none;
+    padding: 10px 0 10px 0;
+    margin: 0 0 0 0;
+    color: #222;
+}
+.product-container ul li .item-product ul li.img{width:33%;text-align:left;padding:10px;}
+.product-container ul li .item-product ul li.data{width:51%;text-align:left;}
+.product-container ul li .item-product ul li.price{width:15%;text-align:right;padding:10px;}
+.product-container ul li .item-product ul li.price span{color:#aaa;font-size:13px;}
+
+.product-container ul li .item-product ul li img{float:left;width:250px;opacity:1;filter:Alpha(opacity=100);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;border:1px solid #ccc;}
+.product-container ul li .item-product ul li img:hover{opacity:.4;filter:Alpha(opacity=40);cursor: zoom-in;}
+.product-container ul li .item-product ul li .local{color:#888;padding-top:20px;}
+.product-container ul li .item-product ul li .phone{
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 1.1em;
+    color: #444;
+    font-weight: 600;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+}
+/* Product artigo
+==================================== */
+.artigo-container{
+	position:relative;
+	background: #fff;
+	margin:0;
+	margin-top:-35px;
+	padding:5px 35px 0px 35px;
+	text-align:center;
+	font-size:14px;
+}
+
+.artigo-container ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.artigo-container ul li{
+    list-style: none;
+    padding: 15px 0 15px 0;
+    margin: 0 0 0 0;
+    color: #222;
+}
+
+.artigo-container ul li .item-product{
+	border: 1px solid #cfcfcf;
+	padding:8px;
+	height:;
+	margin:0;
+	border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+    box-shadow:         0px 2px 8px 0px rgba(70, 70, 70, 0.21);
+}
+
+.artigo-container ul li .item-product ul{
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	margin:0;
+}
+
+.artigo-container ul li .item-product ul li{
+	width:100%;
+	float:left;
+	overflow:hidden;
+    list-style: none;
+    padding: 10px 0 10px 0;
+    margin: 0 0 0 0;
+    color: #222;
+}
+.artigo-container ul li .item-product ul li.img{width:32%;text-align:right;padding-top:40px;padding-left:50px;}
+.artigo-container ul li .item-product ul li.data{width:47%;text-align:left;padding:30px 10px 10px 30px;}
+.artigo-container ul li .item-product ul li.price{width:20%;text-align:center;padding:35px 10px 10px 10px;}
+.artigo-container ul li .item-product ul li.price span{color:#aaa;font-size:13px;}
+
+.artigo-container ul li .item-product ul li img{float:left;width:330px;opacity:1;filter:Alpha(opacity=100);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;border:1px solid #ccc;}
+.artigot-container ul li .item-product ul li img:hover{opacity:.4;filter:Alpha(opacity=40);cursor:zoom-in;}
+.artigo-container ul li .item-product ul li .local{color:#888;padding-top:20px;}
+.artigo-container ul li .item-product ul li .phone{
+	display:block;
+	width:90%;
+	padding:5px;
+	margin-top: 15px;
+	padding-left:20px;
+	font-size:1.2em;
+	color:#444;
+	font-weight:600;
+	background-color:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius: 5px;
+}
+/* CS product skiny =====================
+==================================== */
+#skiny{
+	display:block;
+	clear:both;
+	position:relative;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+    text-align:left;	
+}
+
+#skiny a{
+	text-align:left;
+	text-decoration:none;
+	outline:none;
+}
+
+#skiny a img{
+	width:40px;
+	height:40px;
+	margin-top:15px;
+	margin-right:15px;
+	border:1px solid #ccc;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+
+}
