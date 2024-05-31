@@ -273,7 +273,7 @@ footer .footer-partner ul li{
 .product-container ul li .item-product{
 	border: 1px solid #fcfcfc;
 	padding:8px;
-	height:;
+	height:auto;
 	margin:0;
 	border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;
 	-webkit-box-shadow: 0px 2px 8px 0px rgba(70, 70, 70, 0.21);
@@ -327,7 +327,7 @@ footer .footer-partner ul li{
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
 }
-}
+
 /* Product artigo
 ==================================== */
 .artigo-container{
@@ -356,7 +356,7 @@ footer .footer-partner ul li{
 .artigo-container ul li .item-product{
 	border: 1px solid #cfcfcf;
 	padding:8px;
-	height:;
+	height:auto;
 	margin:0;
 	border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius: 5px;
 	-webkit-box-shadow: 0px 2px 8px 0px rgba(70, 70, 70, 0.21);
